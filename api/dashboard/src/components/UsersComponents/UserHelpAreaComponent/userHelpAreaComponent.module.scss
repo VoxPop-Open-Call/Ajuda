@@ -1,0 +1,40 @@
+div .titleStyle {
+  font-weight: 700;
+  font-size: 16px;
+  color: #474954;
+  margin-bottom: 6px;
+}
+
+div .addressStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #474954;
+  margin-bottom: 20px;
+  &:empty {
+    min-height: 1.5em;
+    line-height: 1.5;
+  }
+}
+
+div .mapContainerDiv {
+  border-radius: 6px;
+  margin-bottom: 28px;
+}
+
+div .maxDistanceContainerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div .maxDistanceFieldStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #899cad;
+  margin-right: 8px;
+}
+
+div .maxDistanceValueStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #474954;
+}

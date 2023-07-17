@@ -1,0 +1,35 @@
+div .containingCard {
+  padding: 0px;
+}
+
+div .containingCardBody {
+  padding: 28px 21px 20px 21px;
+}
+
+div .headerContainerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+div .pageTitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: #0d3b66;
+}
+
+div .tableDiv {
+  margin-top: 23px;
+  padding: 0px 16px;
+  background-color: #f9fafa;
+  border: none;
+}
+
+tbody .tableRowStyle {
+  vertical-align: middle;
+  color: #474954;
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,11 @@
+:global .nav-item .nav-link.active div {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+:global .nav-item .nav-link div {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}

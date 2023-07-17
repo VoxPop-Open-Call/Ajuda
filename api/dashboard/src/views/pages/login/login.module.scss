@@ -1,0 +1,94 @@
+div .positionDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  align-items: center;
+}
+
+div .cardStyle {
+  border-radius: 14px;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-color: #000000;
+  box-shadow: 0px 0px 6px #cdcdcda1;
+  width: fit-content;
+  padding: 0px;
+}
+
+div .cardBodyStyle {
+  padding: 30px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div .loginImageDiv {
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+div .loginContainerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div .titleStyle {
+  font-weight: 700;
+  font-size: 27px;
+  color: #0d3b66;
+  margin-bottom: 36px;
+}
+
+div .inputFieldsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+div .loginFieldStyle {
+  font-weight: 500;
+  font-size: 12px;
+  color: #899cad;
+}
+
+div .loginFields {
+  font-weight: 600;
+  font-size: 15px;
+  color: #474954;
+}
+
+div .inputContainerDiv {
+  margin-bottom: 22px;
+}
+
+div .buttonDivStyle {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 30px;
+}
+
+div .buttonStyle {
+  border: none;
+  border-radius: 27px;
+  background-color: #0d3b66;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 16px 57px;
+}
+
+div .buttonStyle:hover,
+div .buttonStyle:active,
+div .buttonStyle:focus {
+  border: none;
+  background-color: #1a76cb;
+}
+
+div .errorTextStyle {
+  margin-right: auto;
+  color: red;
+  font-weight: 300;
+  font-size: 16px;
+}

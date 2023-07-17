@@ -1,0 +1,103 @@
+div .userPersonalInfoDiv {
+  display: flex;
+}
+
+div .imageContainerDiv {
+  margin-right: 31px;
+}
+
+div .imageStyle {
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
+  border: 8px solid RGBA(206, 206, 206, 0.2);
+}
+
+div .nameStyle {
+  font-weight: 700;
+  font-size: 22px;
+  color: #0d3b66;
+  margin-bottom: 10px;
+}
+
+div .userContactsContainerDiv {
+  display: flex;
+}
+
+div .userContactsFieldContainerDiv {
+  margin-right: 12px;
+}
+
+div .userContactsFieldStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #899cad;
+  margin-bottom: 8px;
+}
+
+div .userContactsStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #474954;
+  margin-bottom: 8px;
+  &:empty {
+    min-height: 1.5em;
+    line-height: 1.5;
+  }
+}
+
+div .ratingContainerDiv {
+  margin-left: auto;
+}
+
+div .ratingCreationContainerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+div .userContactsCreationFieldStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #899cad;
+  margin-bottom: 8px;
+  margin-right: 22px;
+}
+
+div .ratingContainerDivStyle {
+  border-radius: 8px;
+  background-color: RGBA(255, 206, 54, 0.05);
+  padding: 5px 10px;
+  width: fit-content;
+  margin-right: 4px;
+}
+
+div .disableRatingContainerDivStyle {
+  border-radius: 8px;
+  background-color: RGBA(71, 73, 84, 0.05);
+  padding: 5px 10px;
+  width: fit-content;
+  margin-right: 4px;
+}
+
+div .ratingIconStyle {
+  margin-right: 6px;
+  color: #ffce36;
+}
+
+div .disableRatingIconStyle {
+  margin-right: 6px;
+  color: RGBA(71, 73, 84, 0.2);
+}
+
+div .reviewsCounterStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fe6d73;
+}
+
+div .disableReviewsCounterStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #e1e1e1;
+}

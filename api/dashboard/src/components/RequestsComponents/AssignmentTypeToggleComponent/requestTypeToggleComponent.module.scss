@@ -1,0 +1,72 @@
+div .togglerDiv {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 8px;
+  border: 1px solid #0d3b66;
+}
+
+div .completeButtonStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  // border: 1px solid #0d3b66;
+  padding: 6px 15px;
+  &:hover {
+    background-color: #155c9e;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  &:active {
+    background-color: #155c9e;
+  }
+}
+
+div .completeActiveButtonStyle {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  // border: 1px solid #0d3b66;
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  &:hover {
+    // background-color: #4d4dff;
+    cursor: auto;
+  }
+  &:active {
+    background-color: blue;
+  }
+}
+
+div .upcomingButtonStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  border-right: 1px solid #0d3b66;
+  border-left: 1px solid #0d3b66;
+  padding: 6px 15px;
+  &:hover {
+    background-color: #155c9e;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  &:active {
+    background-color: #155c9e;
+  }
+}
+
+div .upcomingActiveButtonStyle {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  border-right: 1px solid #0d3b66;
+  border-left: 1px solid #0d3b66;
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  &:hover {
+    // background-color: #4d4dff;
+    cursor: auto;
+  }
+  &:active {
+    background-color: blue;
+  }
+}

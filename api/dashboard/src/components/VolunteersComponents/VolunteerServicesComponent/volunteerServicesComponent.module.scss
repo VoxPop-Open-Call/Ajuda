@@ -1,0 +1,31 @@
+div .titleStyle {
+  font-weight: 700;
+  font-size: 16px;
+  color: #474954;
+  margin-bottom: 5px;
+}
+
+div .servicesEntryContainerDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 53px;
+}
+
+div .servicesEntryStyle {
+  border-radius: 12px;
+  background-color: RGBA(13, 59, 102, 0.1);
+  font-weight: 600;
+  font-size: 13px;
+  color: #0d3b66;
+  width: fit-content;
+  padding: 7px 11px;
+  margin: 0px 10px 10px 0px;
+}
+
+div .languageAndConditionsStyle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #474954;
+  word-break: break-all;
+  margin-bottom: 53px;
+}

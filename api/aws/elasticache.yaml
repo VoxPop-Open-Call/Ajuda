@@ -1,0 +1,63 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Parameters:
+  Environment:
+    Type: String
+    Description: Name of this stack's enviornment
+  StackName:
+    Type: String
+    Description: Base Name of this stack, this is usually used in prefixes for resources
+  SubnetIds:
+    Type: String
+    Description: Comma separated list of subnet Id's
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+  RedisPort:
+    Type: Number
+    Default: 6379
+
+Resources:
+  RedisSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Redis Security Group
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        -
+          IpProtocol: tcp
+          FromPort: !Ref RedisPort
+          ToPort: !Ref RedisPort
+      Tags:
+        -
+          Key: Name
+          Value: !Sub "${StackName}-${Environment}-redis-security-group"
+
+  RedisSubnetGroup:
+    Type: AWS::ElastiCache::SubnetGroup
+    Properties:
+      Description: !Sub "${StackName} ${Environment} Redis Subnet Group"
+      CacheSubnetGroupName: !Sub ${StackName}-${Environment}-redis-subnet-group
+      SubnetIds: !Split [",", !Ref SubnetIds]
+
+  RedisCluster:
+    Type: AWS::ElastiCache::CacheCluster
+    Properties:
+      ClusterName: !Sub "${StackName}-${Environment}-redis-cluster"
+      Engine: redis
+      CacheNodeType: cache.t4g.micro
+      Port: !Ref RedisPort
+      CacheSubnetGroupName: !Ref RedisSubnetGroup
+      VpcSecurityGroupIds:
+        - !GetAtt RedisSecurityGroup.GroupId
+      NumCacheNodes: 1
+      Tags:
+        - Key: Name
+          Value: !Sub "${StackName}-${Environment}-redis"
+
+Outputs:
+  Host:
+    Value: !GetAtt RedisCluster.RedisEndpoint.Address
+  Port:
+    Value: !GetAtt RedisCluster.RedisEndpoint.Port
+  SecurityGroup:
+    Value: !Ref RedisSecurityGroup

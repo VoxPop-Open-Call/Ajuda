@@ -1,0 +1,29 @@
+div .containerDiv {
+  margin-right: 185px;
+}
+
+div .titleStyle {
+  font-weight: 700;
+  font-size: 16px;
+  color: #474954;
+  margin-bottom: 6px;
+}
+
+div .timeEntryContainerDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+div .timeEntryDayStyle {
+  font-weight: 600;
+  font-size: 14px;
+  color: RGBA(71, 73, 84, 0.8);
+  margin-right: 20px;
+}
+
+div .timeEntryTimeStyle {
+  font-weight: 400;
+  font-size: 14px;
+  color: RGB(71, 73, 84, 0.8);
+}

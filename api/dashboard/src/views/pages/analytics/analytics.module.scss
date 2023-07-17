@@ -1,0 +1,147 @@
+div .pageTitleStyle {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #0d3b66;
+  display: flex;
+  justify-content: space-between;
+}
+
+div .metricTypeSelectionDiv {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+div .activeTaskMetricTypeStyle {
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: default;
+  border: 1px solid #0d3b66;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+div .activeUserMetricTypeStyle {
+  background-color: #0d3b66;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: default;
+  border: 1px solid #0d3b66;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+div .taskMetricTypeStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  cursor: pointer;
+  padding: 6px 15px;
+  border: 1px solid #0d3b66;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+div .userMetricTypeStyle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  cursor: pointer;
+  padding: 6px 15px;
+  border: 1px solid #0d3b66;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+div .pageSubTitleStyle {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+div .metricColStyle {
+  margin-bottom: 24px;
+}
+
+div .requestMetricsCardStyle {
+  padding: 0px;
+}
+
+div .requestMetricsCardBodyStyle {
+  padding: 16px;
+}
+
+div .iconContainerDiv {
+  background-image: linear-gradient(270deg, #eb4f56, #fe6d73);
+  border-radius: 10px;
+  height: 62px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-right: 19px;
+}
+
+div .iconContainerDiv .iconStyle {
+  color: #ffffff;
+}
+
+div .requestMetricsTitleStyle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #1d2127;
+}
+
+div .requestMetricsValueStyle {
+  font-weight: 600;
+  font-size: 12px;
+  color: RGBA(29, 33, 39, 0.6);
+}
+
+div .metricContainerRow {
+  margin-bottom: 27px;
+}
+
+div .userTypesCardStyle {
+  padding: 17px 21px;
+}
+
+div .userTypesHeaderStyle {
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474954;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+div .globeIconContainerDiv {
+  background-image: linear-gradient(270deg, #0d3b66, #5286b6);
+  border-radius: 10px;
+  height: 62px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-right: 19px;
+}
+
+div .globeIconContainerDiv .globeIconStyle {
+  color: #ffffff;
+}
+
+div .languageSubTitleStyle {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+tr .headerStyle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #474954;
+  background-color: #f9fafa;
+}
+
+.paginationStyle li a {
+  color: #fe6d73;
+  &:hover {
+    color: #fe6d73;
+    background-color: #ffe6e6;
+  }
+}
+
+.paginationStyle li span {
+  background-color: #fe6d73 !important;
+  border-color: #fe6d73 !important;
+}
+
+div .verifiedStatusBadgeStyle {
+  border-radius: 5px;
+  background-color: #35ab68;
+  width: fit-content;
+  padding: 4px 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+div .notVerifiedStatusBadgeStyle {
+  border-radius: 8px;
+  background-color: #fda943;
+  width: fit-content;
+  padding: 4px 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+div .rejectedVerifiedStatusBadgeStyle {
+  border-radius: 8px;
+  background-color: #c93046;
+  width: fit-content;
+  padding: 4px 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}

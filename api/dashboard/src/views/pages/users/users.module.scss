@@ -1,0 +1,97 @@
+div .headerContainerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+div .breadcrumbContainerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .breadcrumbActionStyle {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #fe6d73;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+div .breadcrumbCurrentStyle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #899cad;
+}
+
+div .buttonContainerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+div .buttonIconStyle {
+  margin-right: 8px;
+}
+
+div .acceptButtonStyle {
+  border-radius: 8px;
+  background-color: #35ab68;
+  padding: 10px 21px;
+  margin-right: 13px;
+  width: 140px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #309c5f;
+  }
+}
+
+div .rejectButtonStyle {
+  border-radius: 8px;
+  background-color: #c93046;
+  padding: 10px 21px;
+  width: 140px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #b92d42;
+  }
+}
+
+div .containingCard {
+  padding: 0px;
+}
+
+div .containingCardBody {
+  padding: 28px 21px 20px 21px;
+}
+
+div .pageTitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: #0d3b66;
+}
+
+div .tableDiv {
+  margin-top: 23px;
+  padding: 0px 16px;
+  background-color: #f9fafa;
+  border: none;
+}
+
+tbody .tableRowStyle {
+  vertical-align: middle;
+  color: #474954;
+  font-size: 15px;
+  font-weight: 400;
+}

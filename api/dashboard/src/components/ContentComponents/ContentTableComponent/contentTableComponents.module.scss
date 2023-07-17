@@ -1,0 +1,17 @@
+td .buttonStyle {
+  padding: 2px 17px;
+  border-radius: 5px;
+  border: 1px solid #899cad;
+  background-color: unset;
+  color: #899cad;
+  width: fit-content;
+  &:hover {
+    background-color: #899cad;
+    color: #ffffff;
+  }
+}
+
+tr > td > .buttonStyle:active {
+  background-color: #788ea1;
+  color: #ffffff;
+}

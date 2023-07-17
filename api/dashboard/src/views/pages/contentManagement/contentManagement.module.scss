@@ -1,0 +1,92 @@
+div .dropdownDivStyle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div .containingCard {
+  padding: 0px;
+}
+
+div .containingCardBody {
+  padding: 28px 21px 20px 21px;
+}
+
+div .pageTitleContainerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div .eventsNewsContainerDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .eventsButton {
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  padding: 6px 16px;
+  border: 1px solid #0d3b66;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+}
+
+div .activeEventsButton {
+  background-color: #0d3b66;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 6px 16px;
+  border: 1px solid #0d3b66;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+}
+
+div .newsButton {
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  color: #0d3b66;
+  padding: 6px 16px;
+  border: 1px solid #0d3b66;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+div .activeNewsButton {
+  background-color: #0d3b66;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 6px 16px;
+  border: 1px solid #0d3b66;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+div .pageTitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: #0d3b66;
+}
+
+div .tableDiv {
+  margin-top: 23px;
+  padding: 0px 16px;
+  background-color: #f9fafa;
+  border: none;
+}
+
+tbody .tableRowStyle {
+  vertical-align: middle;
+  color: #474954;
+  font-size: 15px;
+  font-weight: 400;
+}
