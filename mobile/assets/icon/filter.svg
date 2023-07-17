@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>filter</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-assets" transform="translate(-128.000000, -1212.000000)" fill-rule="nonzero">
+            <g id="filter" transform="translate(128.000000, 1212.000000)">
+                <path
+                    d="M0,18 C0,32.823 3.177,36 18,36 C32.823,36 36,32.823 36,18 C36,3.177 32.823,0 18,0 C3.177,0 0,3.177 0,18 Z"
+                    id="Path" fill="#FE6D73"></path>
+                <path
+                    d="M8,14 C8,13.44772 8.447715,13 9,13 L27,13 C27.5523,13 28,13.44772 28,14 C28,14.55228 27.5523,15 27,15 L9,15 C8.447716,15 8,14.55228 8,14 Z M11,19 C11,18.44772 11.44772,18 12,18 L24,18 C24.5523,18 25,18.44772 25,19 C25,19.5523 24.5523,20 24,20 L12,20 C11.44772,20 11,19.5523 11,19 Z M16,23 C15.44772,23 15,23.4477 15,24 C15,24.5523 15.44772,25 16,25 L20,25 C20.5523,25 21,24.5523 21,24 C21,23.4477 20.5523,23 20,23 L16,23 Z"
+                    id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

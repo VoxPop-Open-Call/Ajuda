@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="28px" viewBox="0 0 43 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>toggle-on</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-assets" transform="translate(-409.000000, -320.000000)">
+            <g id="toggle-on" transform="translate(409.000000, 320.000000)">
+                <rect id="Rectangle" fill="#FE6D73" transform="translate(21.500000, 14.000000) scale(-1, 1) translate(-21.500000, -14.000000) " x="0" y="0" width="43" height="28" rx="14"></rect>
+                <circle id="Oval" fill="#FFFFFF" transform="translate(30.000000, 14.000000) scale(-1, 1) translate(-30.000000, -14.000000) " cx="30" cy="14" r="11"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
